@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "blood_pressure",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userReference",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "body_temperature",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userReference",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "blood_pressure",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userReference",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "blood_sugar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userReference",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reminder",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_reference",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_created",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
